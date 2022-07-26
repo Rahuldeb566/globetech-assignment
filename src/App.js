@@ -1,12 +1,20 @@
 import './App.css';
 import Header from './Components/Header/Header';
-import Rocket from './Components/Rocket/Rocket';
+import Home from './Components/Home/Home';
+import Service from './Components/Services/Service';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (
     <div className='App'>
       <Header></Header>
-      <Rocket></Rocket>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Services" element={<Service></Service>} />
+        </Routes>
+      </Router>
     </div>
   );
 }

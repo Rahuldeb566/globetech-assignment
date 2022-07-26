@@ -9,9 +9,9 @@ const Header = () => {
                 <img src={logo} alt="" />
             </div>
             <div className='nav d-flex'>
-                <a href="">Home</a>
-                <a href="">Services</a>
-                <a href="">Login</a>
+                <a href="/">Home</a>
+                <a href="/Services">Services</a>
+                <a href="/Login">Login</a>
             </div>
         </div>
     );

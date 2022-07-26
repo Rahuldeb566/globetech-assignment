@@ -5,7 +5,7 @@ import rocket from '../../images/rocket.png';
 const Rocket = () => {
     return (
         <div className='rocket container'>
-            <img src={rocket} alt="" />
+            <img id='rocket1' src={rocket} alt="" />
         </div>
     );
 };

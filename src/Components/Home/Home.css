@@ -1,0 +1,96 @@
+h1, h3 {
+    color: rgb(105, 199, 236);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+}
+p {
+    color: rgb(105, 199, 236) ;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+span {
+    color: rgb(255, 255, 0);
+    font-weight: 600;
+}
+#globe {
+    color: rgb(255, 255, 0);
+}
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-part {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+
+.button2 {
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(1, 1, 117);
+    color: aqua;
+    border: 1px solid aqua;
+    border-radius: 3px;
+}
+
+.button1 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(243, 243, 41);
+    border: 1px solid rgb(1, 1, 117);
+    border-radius: 3px;
+
+}
+
+.sqr1 {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(2, 2, 68);
+    border: 2px solid aqua;
+    border-radius: 50%;
+}
+
+.sqr2 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(2, 2, 68);
+    border: 2px solid aqua;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.sqr3 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(2, 2, 68);
+    border: 2px solid aqua;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.sqr4 {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 238, 83);
+    border-radius: 50%;
+    margin-top: 90px;
+    margin-left: 90px;
+}
