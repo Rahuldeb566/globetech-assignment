@@ -89,7 +89,7 @@ const Service = () => {
             </div>
         </div>
 
-        <footer>Copyright Rahul 2022</footer>
+        <footer id='service-footer'>Globetech Company Limited By Rahul</footer>
             
             
         </div>

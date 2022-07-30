@@ -62,8 +62,10 @@
     border-radius: 50px;
 }
 
-footer {
+#service-footer {
     margin-top: 20px;
+    color: rgb(231, 231, 231);
+    font-size: 10px;
+    letter-spacing: 1px;
     text-align: center;
-    color: lightgray;
 }

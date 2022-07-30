@@ -1,7 +1,30 @@
 import React from 'react';
 import './Login.css';
+import IconButton from "@material-ui/core/IconButton";
+import Visibility from "@material-ui/icons/Visibility";
+import InputAdornment from "@material-ui/core/InputAdornment";
+import VisibilityOff from "@material-ui/icons/VisibilityOff";
+import Input from "@material-ui/core/Input";
 
 const Login = () => {
+
+    const [values, setValues] = React.useState({
+        password: "",
+        showPassword: false,
+      });
+      
+      const handleClickShowPassword = () => {
+        setValues({ ...values, showPassword: !values.showPassword });
+      };
+      
+      const handleMouseDownPassword = (event) => {
+        event.preventDefault();
+      };
+      
+      const handlePasswordChange = (prop) => (event) => {
+        setValues({ ...values, [prop]: event.target.value });
+      };
+
     return (
         <div className='login'>
             <div className='right-side'>
@@ -18,11 +41,30 @@ const Login = () => {
                         <input type="email" className="form-control" placeholder='Email' id="exampleInputEmail1" aria-describedby="emailHelp" />
                     </div>
                     <div className="mb-3">
-                        <input type="password" className="form-control" placeholder='Password' id="exampleInputPassword1" />
+                        <Input
+                            className='form-control' placeholder='Password' type={values.showPassword ? "text" : "password"}
+                            onChange={handlePasswordChange("password")}
+                            value={values.password}
+                            endAdornment={
+                            <InputAdornment position="end">
+                                <IconButton
+                                    onClick={handleClickShowPassword}
+                                    onMouseDown={handleMouseDownPassword}
+                                >
+                                    {values.showPassword ? <Visibility /> : <VisibilityOff />}
+                                </IconButton>
+                            </InputAdornment>
+                            }
+                            />
                     </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <button type="submit" className="btn btn-submit"> <a href="/"> Submit </a></button>
                 </form>
+            <footer id='footer' >
+                Globetech Company Limited By Rahul
+            </footer>
             </div>
+
+            
         </div>
     );
 };

@@ -26,16 +26,32 @@
 
 
 .left-side {
-    background-color: aliceblue;
+    background-color: rgb(172, 194, 214);
 }
 .form {
     background-color: white;
     text-align: center;
     padding: 50px;
-    width: 350px;
+    width: 400px;
     height: 300px;
-    margin-left: 200px;
-    margin-top: 150px;
+    margin-left: 300px;
+    margin-top: 250px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.btn-submit {
+    width: 300px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+
+.btn-submit a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: rgb(47, 154, 255);
+    color: white;
 }
 .form h3 {
     font-weight: 400;
@@ -45,4 +61,12 @@
     text-align: center;
     font-size: 15px;
     color: lightgray;
+}
+
+#footer {
+    color: rgb(231, 231, 231);
+    font-size: 10px;
+    margin-top: 80px;
+    text-align: center;
+    letter-spacing: 1px;
 }
