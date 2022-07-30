@@ -1,10 +1,12 @@
 import React from 'react';
 import Rocket from '../Rocket/Rocket';
 import './Home.css';
+import Header from './../Header/Header';
 
 const Home = () => {
     return (
         <div className='container'>
+            <Header></Header>
             <Rocket></Rocket>
             <div className="home-container">
                 <div className='left-part'>

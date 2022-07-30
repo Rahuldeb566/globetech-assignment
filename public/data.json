@@ -1,0 +1,38 @@
+[
+  {
+    "id": 101,
+    "picture": "https://abouttmc.com/wp-content/uploads/2016/06/ERP-Software-Solution-%E2%80%93-Provides-Your-Team-With-Real-Time-Access-to-Vital-Data.jpg",
+    "title": "Software Solution",
+    "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+  },
+  {
+    "id": 102,
+    "picture": "https://realtime-dxb.com/wp-content/uploads/2021/04/ecommerce-1.png",
+    "title": "E commerce Solution",
+    "body": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source."
+  },
+  {
+    "id": 103,
+    "picture": "https://affabletechnology.com/wp-content/uploads/2020/08/erp-software-770x450-1.jpeg",
+    "title": "ERP Solution",
+    "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+  },
+  {
+    "id": 104,
+    "picture": "https://bulksmsbd.com/images/header-1-img.png",
+    "title": "Bulk Sms Service",
+    "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+  },
+  {
+    "id": 105,
+    "picture": "https://sgp1.digitaloceanspaces.com/cosmosgroup/news/1071218_Graphic-Design.jpg",
+    "title": "Graphic Design",
+    "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+  },
+  {
+    "id": 106,
+    "picture": "https://neilpatel.com/wp-content/uploads/2021/07/digital-marketing_featured-image.png",
+    "title": "Digital Marketting",
+    "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+  }
+]
