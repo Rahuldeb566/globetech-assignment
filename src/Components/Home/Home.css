@@ -64,6 +64,7 @@ span {
     background-color: rgb(2, 2, 68);
     border: 2px solid aqua;
     border-radius: 50%;
+    position: sticky;
 }
 
 .sqr2 {
@@ -74,6 +75,7 @@ span {
     border-radius: 50%;
     margin-top: 50px;
     margin-left: 50px;
+    position: sticky;
 }
 
 .sqr3 {
@@ -84,6 +86,7 @@ span {
     border-radius: 50%;
     margin-top: 50px;
     margin-left: 50px;
+    position: sticky;
 }
 
 .sqr4 {
@@ -93,4 +96,79 @@ span {
     border-radius: 50%;
     margin-top: 90px;
     margin-left: 90px;
+    position: sticky;
 }
+
+
+.circle1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    z-index: 1;
+    bottom: 205px;
+    right: 60px;
+}
+
+.circle2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    z-index: 1;
+    left: 233px;
+    top: 40px;
+}
+.circle3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    z-index: 1;
+    left: 155px;
+    bottom: 200px;
+}
+.circle4 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    z-index: 1;
+    bottom: 150px;
+    right: 67px;
+    
+}
+.circle5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;
+    z-index: 1;
+    right: 67px;
+    top: 10px;
+    
+}
+
+.circle1:hover {
+    left: 180px;
+    transform: translateY(30px);
+}
+
+
+/*
+.circle3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: aqua;
+    left: 10px;
+    top: -100px;
+    position: relative;
+    top: 200px;
+    z-index: 1;
+} */
